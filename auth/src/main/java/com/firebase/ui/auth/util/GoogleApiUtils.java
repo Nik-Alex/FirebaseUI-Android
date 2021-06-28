@@ -19,9 +19,7 @@ public final class GoogleApiUtils {
     }
 
     public static boolean isPlayServicesAvailable(@NonNull Context context) {
-        return GoogleApiAvailability
-                .getInstance()
-                .isGooglePlayServicesAvailable(context) == ConnectionResult.SUCCESS;
+        return true;
     }
 
     @NonNull
